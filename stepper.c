@@ -173,9 +173,6 @@ Timer0IntHandler()
                          | GPIO_PIN_3, wave_drive_array[count % 4]);
       }
       next = current;
-      /*if(count == 4){
-        count = 0;
-      }*/
     }
     
     //WAVE DRIVE
